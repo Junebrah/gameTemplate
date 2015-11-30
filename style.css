@@ -28,7 +28,7 @@ body {
     font-size: 5em;
     text-decoration: none;
     background-color: #abc;
-    box-shadow: 15px 15px 80px #555;
+    box-shadow: 10px 10px 75px #555;
 }
   a.button:hover {
     background-color: #383838;
