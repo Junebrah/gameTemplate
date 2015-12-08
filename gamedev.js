@@ -55,8 +55,10 @@ $( document ).ready(function() {
 	$("#goBack").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
 		$("#goBack").hide();
+		$("#goStraight2").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+
 		
 	});
 
