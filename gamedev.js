@@ -38,6 +38,7 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 		$("#goStraight2").show();
+		$("#goStraight1").hide();
 	});
 
 	$("#Straight2").click(function() {
