@@ -57,6 +57,7 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+		
 	});
 
 
