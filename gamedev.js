@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/cave3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/cave.jpg')");
 		$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
@@ -11,7 +11,7 @@ $( document ).ready(function() {
 	$("#goRight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
 		$("#goRight-Straight1").hide();
-		$("#goRight-Straight2").show();
+		$("#goRight-Straight2").show(
 	});
 
 	$("#goRight-Straight2").click(function() {
@@ -57,7 +57,7 @@ $( document ).ready(function() {
 	$("#goBack").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
 		$("#goBack").hide();
-		$("#goStraight1").hide();
+		$("#goStraight1").show();
 		$("#goStraight2").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
