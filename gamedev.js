@@ -36,11 +36,11 @@ $( document ).ready(function() {
 	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/cave2.jpg')");
 		$("#goLeft1").hide();
-		$("#goLeft2").show();
+		$("#goStraight2").show();
 	});
 
-	$("#goLeft-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+	$("#Straight2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/mine1.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft3").show();
 	});
