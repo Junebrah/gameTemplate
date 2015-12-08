@@ -10,6 +10,7 @@ $( document ).ready(function() {
 
 	$("#goRight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
 	});
 
