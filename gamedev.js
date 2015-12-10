@@ -1,17 +1,16 @@
 $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/cave1.jpg')");
-		$("#goRight1").hide();
+		$("#exploreBody").css("background-image", "url('img/cave3.jpg')");
 		$("#goBack").hide();
-		$("#goRight-Straight1").show();
-		$("#goRight-Right2").show();
+		$("#goRight-Straight1").hide();
+		$("#goRight-Right2").hide();
 	});
 
 	$("#goRight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
 		$("#goRight-Straight1").hide();
-		$("#goRight-Straight2").show();
+		$("#goRight-Straight2").show(
 	});
 
 	$("#goRight-Straight2").click(function() {
@@ -34,18 +33,18 @@ $( document ).ready(function() {
 
 
 	$("#goLeft1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
-		$("#goLeft1").hide();
-		$("#goLeft2").show();
+		$("#exploreBody").css("background-image", "url('img/cave2.jpg')");
+		$("#goStraight2").show();
+		$("#goStraight1").hide();
 	});
 
-	$("#goLeft-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+	$("#Straight2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/mine1.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft3").show();
 	});
 
-	$("#goLeft-Straight2").click(function() {
+	$("#goStraight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goLeft3").hide();
 		$("#goBack").show();
@@ -55,8 +54,12 @@ $( document ).ready(function() {
 	$("#goBack").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
 		$("#goBack").hide();
+		$("#goStraight1").show();
+		$("#goStraight2").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+
+		
 	});
 
 

@@ -68,13 +68,13 @@ body {
     display: block;
 }
 
-#goRight-Straight1 {
+#goStraight1 {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goLeft-Straight1 {
+#goStraight2 {
     bottom: 25%;
     left: 45%;
     display: none;
