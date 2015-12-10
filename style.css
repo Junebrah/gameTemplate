@@ -1,28 +1,28 @@
 body {
 
-	background-image: url("http://imgs.mi9.com/uploads/landscape/4824/cave-and-water-wallpaper_1920x1080_88448.jpg");
+    background-image: url("http://imgs.mi9.com/uploads/landscape/4824/cave-and-water-wallpaper_1920x1080_88448.jpg");
     background-size: cover;
     background-position: center center;
-	font-family: monospace;
+    font-family: monospace;
 
 }
 
 /*Stuff below governs the start screen*/
 
 .titleContent {
-	margin: 10% auto;
+    margin: 10% auto;
     text-align: center;
 }
 
 .splashTitle {
-	color: #fff;
+    color: #fff;
     font-size: 8em;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
 .button {
-	border: 5px solid #383838;
+    border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
     font-size: 5em;
@@ -40,15 +40,15 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
-	background-position: bottom center;
+    background-image: url("img/exploreHome1.jpg");
+    background-position: bottom center;
 
 }
 
 .go {
-	position: absolute;
-	color: white;
-	position: absolute;
+    position: absolute;
+    color: white;
+    position: absolute;
     padding: 20px 10px;
     color: white;
     font-size: 6em;
@@ -68,13 +68,13 @@ body {
     display: block;
 }
 
-#goRight-Straight1 {
+#goStraight1 {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goLeft-Straight1 {
+#goStraight2 {
     bottom: 25%;
     left: 45%;
     display: none;
@@ -92,13 +92,13 @@ body {
     display: none;
 }
 
-#goRight-Right2 {
+#goRight2 {
     right: 40px;
     top: 40%;
     display: none;
 }
 
-#goLeft-Straight3 {
+#goLeft2 {
     bottom: 25%;
     left: 45%;
     display: none;
@@ -140,11 +140,11 @@ display: inline;
 }
 
 .invSlot1 {
-	display: inline;
-	width: 80px;
-	height: 80px;
-	border: 5px dashed #bbb;
-	padding: 10px 10px;
+    display: inline;
+    width: 80px;
+    height: 80px;
+    border: 5px dashed #bbb;
+    padding: 10px 10px;
     margin: 20px;
     font-size:0.6em;
 }
