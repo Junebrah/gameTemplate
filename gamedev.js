@@ -36,6 +36,8 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/cave2.jpg')");
 		$("#goStraight2").show();
 		$("#goStraight1").hide();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
 	});
 
 	$("#Straight2").click(function() {
