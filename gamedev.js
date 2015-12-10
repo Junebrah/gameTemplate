@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/cave.jpg')");
+		$("#exploreBody").css("background-image", "url('img/cave3.jpg')");
 		$("#goBack").hide();
 		$("#goRight-Straight1").hide();
 		$("#goRight-Right2").hide();
