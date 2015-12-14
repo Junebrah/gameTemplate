@@ -29,7 +29,7 @@ $( document ).ready(function() {
 	$("#goRight-Right2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
 		$("#goRight-Right2").hide();
-		$("#goBack").show();
+		$("#goBack1").show();
 	});
 
 
@@ -53,7 +53,14 @@ $( document ).ready(function() {
 	});
 
 
-	$("#goBack").click(function() {
+	$("#goBack1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
+		$("#goBack").hide();
+		$("#goStraight1").show();
+		$("#goRight1").show();
+		$("#goLeft1").show();
+
+	$("#goBack2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
 		$("#goBack").hide();
 		$("#goStraight1").show();
