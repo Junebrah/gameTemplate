@@ -30,6 +30,10 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 		$("#goRight2").hide();
+		$("#goStraight1").hide();
+		$("#goStraight2").hide();
+		$("#goStraight3").hide();
+		$("#goStraight4").hide();
 	});
 
 	$("#goRight-Straight3").click(function() {
