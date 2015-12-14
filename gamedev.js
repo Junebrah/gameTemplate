@@ -58,6 +58,9 @@ $( document ).ready(function() {
 		$("#goBack1").hide();
 		$("#goBack2").hide();
 		$("#goStraight1").show();
+		$("#goStraight2").hide();
+		$("#goStraight3").hide();
+		$("#goStraight4").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
 
@@ -68,6 +71,9 @@ $( document ).ready(function() {
 		$("#goBack1").hide();
 		$("#goBack2").hide();
 		$("#goStraight1").show();
+		$("#goStraight2").hide();
+		$("#goStraight3").hide();
+		$("#goStraight4").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
 
