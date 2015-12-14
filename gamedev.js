@@ -27,6 +27,9 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/de1.jpg')");
 		$("#goBack2").show();
 		$("#goLeft2").hide();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
+		$("#goRight2").hide();
 	});
 
 	$("#goRight-Straight3").click(function() {
