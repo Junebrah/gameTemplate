@@ -93,15 +93,15 @@ body {
 }
 
 #goRight2 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
+    right: 40px;
+    top: 40%;
+    display: block;
 }
 
-#goLeft2 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
+#goLeft1 {
+    left: 40px;
+    top: 40%;
+    display: block;
 }
 
 #goRight-Right2 {
