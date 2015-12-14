@@ -50,7 +50,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goStraight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/cave4.jpg')");
 		$("#goLeft3").hide();
 		$("#goBack").show();
 	});
