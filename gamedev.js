@@ -68,7 +68,6 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/cave4.jpg')");
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goBack").show();
 		$("#goRight2").show();
 	});
 
@@ -77,8 +76,7 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/cave4.jpg')");
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goBack").show();
-		$("#goRight2").show();
+		$("#goRight2").hide();
 	});
 
 	$("#goBack1").click(function() {
