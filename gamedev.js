@@ -16,6 +16,7 @@ $( document ).ready(function() {
 		$("#goLeft2").show();
 		$("#goRight2").hide();
 		$("#goStraight1").hide();
+		$("#goStraight4").hide();
 
 	});
 
