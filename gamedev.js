@@ -55,7 +55,8 @@ $( document ).ready(function() {
 
 	$("#goBack1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
-		$("#goBack").hide();
+		$("#goBack1").hide();
+		$("#goBack2").hide();
 		$("#goStraight1").show();
 		$("#goRight1").show();
 		$("#goLeft1").show();
@@ -64,7 +65,8 @@ $( document ).ready(function() {
 
 	$("#goBack2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
-		$("#goBack").hide();
+		$("#goBack1").hide();
+		$("#goBack2").hide();
 		$("#goStraight1").show();
 		$("#goRight1").show();
 		$("#goLeft1").show();
