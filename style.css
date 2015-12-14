@@ -80,6 +80,12 @@ body {
     display: none;
 }
 
+#goStraight3 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
 #goRight2 {
     bottom: 25%;
     left: 45%;
