@@ -26,6 +26,7 @@ $( document ).ready(function() {
 	$("#goStraight4").click(function() {
 		$("#exploreBody").css("background-image", "url('img/de1.jpg')");
 		$("#goBack2").show();
+		$("#goLeft2").hide();
 	});
 
 	$("#goRight-Straight3").click(function() {
@@ -81,6 +82,7 @@ $( document ).ready(function() {
 		$("#goStraight4").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+		$("#goLeft2").hide();
 
 	});
 
@@ -94,6 +96,7 @@ $( document ).ready(function() {
 		$("#goStraight4").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+		$("#goLeft2").hide();
 
 		
 	});
