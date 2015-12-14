@@ -71,7 +71,7 @@ body {
 #goStraight1 {
     bottom: 25%;
     left: 45%;
-    display: none;
+    display: block;
 }
 
 #goStraight2 {
