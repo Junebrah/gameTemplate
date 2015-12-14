@@ -71,7 +71,7 @@ body {
 #goStraight1 {
     bottom: 25%;
     left: 45%;
-    display: block;
+    display: none;
 }
 
 #goStraight2 {
@@ -101,7 +101,7 @@ body {
 #goLeft2 {
     bottom: 25%;
     left: 45%;
-    display: block;
+    display: none;
 }
 
 #goRight-Right2 {
