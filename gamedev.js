@@ -13,6 +13,14 @@ $( document ).ready(function() {
 	$("#goStraight3").click(function() {
 		$("#exploreBody").css("background-image", "url('img/cave5.jpg')");
 		$("#goStraight4").show();
+		$("#goLeft2").show();
+
+	});
+
+	$("#goRight2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/cave5.jpg')");
+		$("#goStraight4").show();
+		$("#goLeft2").show();
 	});
 
 	$("#goStraight4").click(function() {
@@ -51,8 +59,17 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 		$("#goBack").show();
+		$("#goRight2").show();
 	});
 
+
+	$("#goLeft2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/cave4.jpg')");
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
+		$("#goBack").show();
+		$("#goRight2").show();
+	});
 
 	$("#goBack1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
