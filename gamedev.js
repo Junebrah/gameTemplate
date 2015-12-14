@@ -43,7 +43,7 @@ $( document ).ready(function() {
 		$("#goRight1").hide();
 	});
 
-	$("#Straight2").click(function() {
+	$("#goStraight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/mine1.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft3").show();
