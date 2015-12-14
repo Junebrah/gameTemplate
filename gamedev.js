@@ -60,7 +60,6 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/openCave.jpg')");
 		$("#goBack").hide();
 		$("#goStraight1").show();
-		$("#goStraight2").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
 
