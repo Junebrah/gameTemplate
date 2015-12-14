@@ -78,7 +78,7 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/cave4.jpg')");
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goRight2").hide();
+		$("#goRight2").show();
 	});
 
 	$("#goBack1").click(function() {
