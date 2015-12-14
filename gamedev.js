@@ -23,6 +23,8 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/cave5.jpg')");
 		$("#goStraight4").show();
 		$("#goLeft2").show();
+		$("#goRight2").hide();
+		$("#goStraight1").hide();
 	});
 
 	$("#goStraight4").click(function() {
