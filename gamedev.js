@@ -29,7 +29,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goStraight4").click(function() {
-		$("#exploreBody").css("background-image", "url('img/de1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/de1.gif')");
 		$("#goBack2").show();
 		$("#goLeft2").hide();
 		$("#goLeft1").hide();
